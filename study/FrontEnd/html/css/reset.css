@@ -1,17 +1,14 @@
-html, h1, h2, h3, h4, h5, h6, a, p, pre, b, i, strong, em, del, ins, mark, 
-small, sup, sub, cite, q, blockquote, bdo, abbr, address, img {
+h1, h2, h3, h4, h5, h6, q, blockquote, cite, bdo, abbr, address, b, i, strong, em, sub, sup, del, 
+mark, ins, a, p, pre, small {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font: inherit;
 	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
 }
 body {
 	line-height: 1;
-}
-ol, ul {
-	list-style: none;
 }
 q, blockquote {
 	quotes: none;
@@ -24,8 +21,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-header, main, nav, article, section {
+ol, ul {
+	list-style: none;
+}
+nav, main, aside, article, section, footer, header {
 	display: block;
 }
-
-

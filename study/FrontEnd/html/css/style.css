@@ -1,0 +1,20 @@
+.title-principal {
+	color: red;
+}
+.link-color {
+	text-decoration: none;
+	background-color: transparent;
+}
+.link-color:link {
+	color: red;
+}
+.link-color:visited {
+	color: black;
+}
+.link-color:hover {
+	color: purple;
+}
+.link-color:active {
+	color: yellow;
+}
+
