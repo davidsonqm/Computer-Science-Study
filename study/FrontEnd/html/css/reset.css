@@ -1,0 +1,31 @@
+html, h1, h2, h3, h4, h5, h6, a, p, pre, b, i, strong, em, del, ins, mark, 
+small, sup, sub, cite, q, blockquote, bdo, abbr, address, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+q, blockquote {
+	quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header, main, nav, article, section {
+	display: block;
+}
+
+
